@@ -13,14 +13,29 @@
     font-size: 18px;
 }
 
-.currencies{
+.mybank{
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     align-items: center;
 }
 
-.loginButtons{
+.currencies{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 240px;
+    margin: 0 0 0 100px;
+}
+
+.menuIcons {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 150px;
+}
+
+.menuIcons li, a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
 }

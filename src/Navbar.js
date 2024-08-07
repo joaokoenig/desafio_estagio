@@ -9,10 +9,10 @@ function Navbar(){
             <div id='dolar'>$XX,XX</div>
             <div id='euro'>€XX,XX</div>
         </div>
-        <div className='loginButtons'>
-           <div id='username'>username</div> 
-           <div id='logout'>logout</div> 
-        </div>
+            <ul className='menuIcons'>
+                <li id='username'><a href='/'>username</a></li>
+                <li id='logout'><a href='/'>logout</a></li>
+            </ul>
     </div>  
     );
 }
