@@ -5,12 +5,15 @@ function Navbar(){
     <div className='navbar'>
         <div className='bankName'>mybank</div>
         <div className='currencies'>
-            <div className='real'>R$XX,XX</div>
-            <div className='dolar'>$XX,XX</div>
-            <div className='euro'>€XX,XX</div>
+            <div id='real'>R$XX,XX</div>
+            <div id='dolar'>$XX,XX</div>
+            <div id='euro'>€XX,XX</div>
         </div>
-        <div className='loginButtons'>username logout</div>
-    </div>    
+        <div className='loginButtons'>
+           <div id='username'>username</div> 
+           <div id='logout'>logout</div> 
+        </div>
+    </div>  
     );
 }
 

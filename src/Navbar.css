@@ -1,5 +1,4 @@
 .navbar{
-    width: 100%;
     height: 30px;
     background-color: silver;
     display: flex;
@@ -16,13 +15,12 @@
 
 .currencies{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    margin: 20px;
 }
 
 .loginButtons{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
